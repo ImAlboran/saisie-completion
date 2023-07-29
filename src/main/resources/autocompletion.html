@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Autocomplétion</title>
+</head>
+<body>
+<h2>Mots suggérés :</h2>
+<ul>
+  <li th:each="mot : ${motsSuggestion}" th:text="${mot.mot}"></li>
+</ul>
+</body>
+</html>

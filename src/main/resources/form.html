@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire avec Autocomplétion</title>
+</head>
+<body>
+<form action="/autocomplete" method="get">
+    <label for="mot">Saisir un mot :</label>
+    <input type="text" id="mot" name="mot" autocomplete="off" />
+    <input type="submit" value="Chercher" />
+</form>
+</body>
+</html>
